@@ -107,7 +107,7 @@ getProfile : Cmd Msg
 getProfile =
   let
     url =
-      "/data.json"
+      "https://joevbruno.github.io/portfolio-elm/data.json"
   in
     Task.perform FetchFail FetchSucceed (Http.get profileDecoder url)
 
