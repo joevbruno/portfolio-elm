@@ -35,7 +35,7 @@ module.exports = validate({
         path: path.resolve(__dirname, 'docs'),
         filename: '[name].[hash].js',
         chunkFilename: "[name].js?[hash]-[chunkhash]",
-        publicPath: "/"
+        publicPath: "./"
     },
     plugins: [
         new HtmlWebpackPlugin({
