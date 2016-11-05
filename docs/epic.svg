@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>256</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="256" stroke="#B1B188" stroke-width="8">
+            <g id="Group-2" transform="translate(53.000000, 80.000000)">
+                <path d="M0.383333333,94.6162791 L45.6166667,29.3837209" id="Line"></path>
+                <path d="M46.3833333,29.3837209 L91.6166667,94.6162791" id="Line"></path>
+                <path d="M87.3815789,85.6153846 L115.618421,46.3846154" id="Line"></path>
+                <path d="M115.391304,46.3888889 L150.608696,94.6111111" id="Line" stroke-linejoin="round"></path>
+                <path d="M50.3823529,35.6086957 L75.6176471,0.391304348" id="Line"></path>
+                <path d="M76.3913043,0.386363636 L112,51" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

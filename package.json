@@ -1,0 +1,56 @@
+{
+  "name": "elm-starter",
+  "version": "1.0.1",
+  "description": "A place to start with Elm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests, sorry!'",
+    "build": "elm make --yes src/elm/Main.elm --output dist/main.js",
+    "watch": "nodemon --watch src --ext elm --exec 'npm run -s build'",
+    "serve": "cd dist && browser-sync start --server --files \"*.js, *.css\"",
+    "old-start": "run-p serve watch",
+    "start": "NODE_ENV=development webpack-dev-server --hot",
+    "elm-install": "npm install && elm package install",
+    "make": "elm make src/Main.elm --warn --output docs/built/index.html",
+    "hot": "elm reactor -a=localhost",
+    "play": "elm-repl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splodingsocks/elm-starter.git"
+  },
+  "author": "Murphy Randle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/splodingsocks/elm-starter/issues"
+  },
+  "homepage": "https://github.com/splodingsocks/elm-starter#readme",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "browser-sync": "2.12.8",
+    "copy-webpack-plugin": "^4.0.0",
+    "css-loader": "^0.25.0",
+    "elm": "0.17.0",
+    "elm-hot-loader": "^0.3.4",
+    "elm-webpack-loader": "^3.0.6",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.10.1",
+    "nodemon": "1.9.2",
+    "npm-run-all": "2.1.0",
+    "postcss-loader": "^1.1.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.9"
+  }
+}
