@@ -10,7 +10,7 @@
         },
         {
             "className": "design",
-            "icon": "https://someurl.com",
+            "icon": "",
             "title": "",
             "subtitle": "",
             "description": ["Design is everywhere, and the best of its kind makes our experiences more intuitive, clear, captivating, and ultimately, makes us more human. I work until there is nothing left to take away, and do so with tools like Adobe Creative Cloud, Affinity Designer, but most recently, Sketch and Invision."],
@@ -18,7 +18,7 @@
         },
         {
             "className": "developer",
-            "icon": "https://someurl.com",
+            "icon": "",
             "title": "Software Developer",
             "subtitle": "",
             "description": ["I’ve spent the better part of the last three years writing modern Javascript, building sophisticated, award winning UIs using frameworks like React, Express, and SailsJS. Before that, I worked mostly with PHP, Wordpress, Laravel and occasionally, Ruby on Rails. I'm always seeking to expand my skillset. These days, beyond Javascript, I'm learning Elm and Go, and working on a React Native app."],
@@ -26,7 +26,7 @@
         },
         {
             "className": "job",
-            "icon": "https://someurl.com",
+            "icon": "",
             "title": "",
             "subtitle": "",
             "description": ["The G2 application provides program and performance management information via advanced graphical and data-rich user interfaces to the NNSA, DOE and its subordinate organizations by integrating Headquarters and Laboratory program data. The application utilizes modern frameworks and tools, such as React, Redux, CSS Modules, Webpack and more."],
@@ -34,7 +34,7 @@
         },
         {
             "className": "project",
-            "icon": "https://someurl.com",
+            "icon": "",
             "title": "infusionnow.tv",
             "subtitle": "",
             "description": ["Running in a series of Docker containers on top of a contineous integration pipeline that includes CircleCi and AWS services, Infusion Ministries’ site utilizes technologies such as Nodejs, Nginx, MongoDB, React, Flux, SCSS, Jest, and a series of third-party libraries like Stripe to craft a rich ecommerce and multimedia CMS and API to help bring the message of identity and freedom to the world."],
@@ -63,7 +63,7 @@
         },
         {
             "name": "Resume",
-            "link": "https://github.com",
+            "link": "https://joebruno.design/resume.pdf",
             "icon": "resume"
         }
     ]
