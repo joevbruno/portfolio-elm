@@ -42,7 +42,7 @@ module.exports = validate({
             template: path.resolve('./src/index.html'),
             filename: 'index.html'
         }),
-        new ExtractTextPlugin("css/main.css", {
+        new ExtractTextPlugin("css/main.[hash].css", {
             disable: debug,
             allChunks: true
         })
