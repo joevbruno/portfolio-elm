@@ -33,7 +33,7 @@ module.exports = validate({
     },
     output: {
         path: path.resolve(__dirname, 'docs'),
-        filename: '[name].[hash].js',
+        filename: 'js/[name].[hash].js',
         chunkFilename: "[name].js?[hash]-[chunkhash]",
         publicPath: "./"
     },
@@ -42,7 +42,7 @@ module.exports = validate({
             template: path.resolve('./src/index.html'),
             filename: 'index.html'
         }),
-        new ExtractTextPlugin("main.css", {
+        new ExtractTextPlugin("css/main.css", {
             disable: debug,
             allChunks: true
         })
