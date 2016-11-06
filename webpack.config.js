@@ -9,7 +9,6 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var autoprefixer      = require('autoprefixer');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
-console.log(debug)
 var productionPlugins = debug ? [] : [
      new webpack.optimize.UglifyJsPlugin({
         minimize:   true,
@@ -61,7 +60,7 @@ module.exports = validate({
                 },
                 {
                     test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-                    loader: "file?name=./../[name].[ext]"
+                    loader: "file?name=./../docs/[name].[ext]"
                 },
 
                 {
