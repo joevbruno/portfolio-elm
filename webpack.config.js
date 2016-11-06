@@ -60,7 +60,7 @@ module.exports = validate({
                 },
                 {
                     test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-                    loader: "file?name=./../docs/[name].[ext]"
+                    loader: "file?name=./../[name].[ext]"
                 },
 
                 {
